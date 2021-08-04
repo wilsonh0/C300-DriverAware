@@ -1,0 +1,99 @@
+# Copyright (c) 2018 NVIDIA Corporation.  All rights reserved.
+#
+# NVIDIA Corporation and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto.  Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA Corporation is strictly prohibited.
+
+[sensor0]
+enable=1
+type=Camera
+id=###SENSOR0_ID
+location=45.293701447;-75.8303914499;48.1557479338
+description=Camera Sensor
+coordinate=5.2;10.1;11.2
+
+[sensor1]
+enable=1
+type=Camera
+id=###SENSOR1_ID
+location=45.293701447;-75.8303914499;48.1557479338
+description=Camera Sensor
+coordinate=5.2;10.1;11.2
+
+[sensor2]
+enable=1
+type=Camera
+id=###SENSOR2_ID
+location=45.293701447;-75.8303914499;48.1557479338
+description=Camera Sensor
+coordinate=5.2;10.1;11.2
+
+[sensor3]
+enable=1
+type=Camera
+id=###SENSOR3_ID
+location=45.293701447;-75.8303914499;48.1557479338
+description=Camera Sensor
+coordinate=5.2;10.1;11.2
+
+[place0]
+enable=1
+id=0
+type=building/room
+name=MICROSOFT
+location=30.32;-40.55;100.0
+coordinate=1.0;2.0;3.0
+
+[place1]
+enable=1
+id=1
+type=building/room
+name=MICROSOFT
+location=30.32;-40.55;100.0
+coordinate=1.0;2.0;3.0
+
+[place2]
+enable=1
+id=2
+type=building/room
+name=MICROSOFT
+location=30.32;-40.55;100.0
+coordinate=1.0;2.0;3.0
+
+[place3]
+enable=1
+id=3
+type=building/room
+name=MICROSOFT
+location=30.32;-40.55;100.0
+coordinate=1.0;2.0;3.0
+
+[analytics0]
+enable=1
+id=XYZ
+description=Video Detection 0
+source=OpenALR
+version=1.0
+
+[analytics1]
+enable=1
+id=XYZ
+description=Video Detection 1
+source=OpenALR
+version=1.0
+
+[analytics2]
+enable=1
+id=XYZ
+description=Video Detection 2
+source=OpenALR
+version=1.0
+
+[analytics3]
+enable=1
+id=XYZ
+description=Video Detection 3
+source=OpenALR
+version=1.0
